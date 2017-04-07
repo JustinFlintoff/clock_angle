@@ -34,4 +34,15 @@ else
 
 end
 
-puts "The difference in degree is " + difference_in_degrees.to_s + " degrees"
+if difference_in_degrees > 180
+
+	the_new_thing = 360 - difference_in_degrees
+
+else
+
+	the_new_thing = difference_in_degrees
+
+end
+	
+
+puts "The difference in degree is " + the_new_thing.to_s + " degrees"
